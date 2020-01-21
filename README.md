@@ -32,7 +32,7 @@ This repository contains several examples of how to work with Regular Expression
 ## 🔥 Running the Examples
 
 ```bash
-$node ./src/'folder'/'file.js'
+$node ./src/'file.js'
 ```
 
 ## 📂 Code scaffolding

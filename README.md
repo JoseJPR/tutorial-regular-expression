@@ -11,7 +11,22 @@ This repository contains several examples of how to work with Regular Expression
 
 ## Shortcuts
 
-| id | description |
+Forming Regex
+
+| flag | description |
+| -- | ----------- |
+| i | Ignore case Flag, ignores the case(uppercase/lowercase) of the input string |
+| g | Global Flag, searches for multiple matches instead of stopping at the first match |
+
+Example
+
+```js
+/hello/ig
+```
+
+Cheat Sheet – Regex Rules
+
+| Escaped characters | description |
 | -- | ----------- |
 | \d | Any number |
 | \w | Any words or number |
@@ -19,7 +34,19 @@ This repository contains several examples of how to work with Regular Expression
 | \D | Any character that is not a number |
 | \W | Any caracter that is not alphanumeric |
 | \S | Any caracter that is not white space |
-| . | Any caracter except new lines |
+| [abc] | Any of a, b, or c |
+| [^abc] | Not a, b, or c |
+| [a-g] | character between a & g |
+
+| Anchors | description |
+| -- | ----------- |
+| ^abc$ | start / end of the string |
+| \b | word boundary|
+
+| Escaped characters | description |
+| -- | ----------- |
+| \\. \\* \\\ | \ is used to escape special chars. \* matches * |
+| \t \n \r | tab, linefeed, carriage return |
 
 ## 🌍 Websites of Interest
 
@@ -43,31 +70,51 @@ $node ./src/'file.js'
 |   └── ...                   # ...
 |   |
 ├── src 💯
-|   ├── example01             # Comparte characters with 'abc'.
-|   ├── example02             # Contain any numbers of 0123456789.
-|   ├── example03             # Contain at least one numbers between 0 and 9.
-|   ├── example04             # Contain at least one character between a and b.
-|   ├── example05             # Contain at least one character between A and Z.
-|   ├── example06             # Contain any number.
-|   ├── example07             # Contain any character.
-|   ├── example08             # Compare string with date format.
-|   ├── example09             # No contain between 0-4.
-|   ├── example10             # No contain character that isn´t numbers.
-|   ├── example11             # With one or more numbers.
-|   ├── example12             # Can contain cero or more numbers.
-|   ├── example13             # Can contain character l or not.
-|   ├── example14             # Correct format Date.
-|   ├── example15             # No case sensitive.
-|   ├── example16             # String groups.
-|   ├── example17             # Exec function.
-|   ├── example18             # Match function.
-|   ├── example19             # Limit words.
-|   ├── example20             # Patterns.
-|   ├── example21             # Start string pattern.
-|   ├── example22             # End string pattern.
-|   ├── example23             # Replace function.
-|   ├── example24             # Search function.
-|   ├── example25             # Test Emails format.
+|   ├── basic                 # Basic Regex
+|   |   ├── example01         # Comparte characters with 'abc'.
+|   |   ├── example02         # Contain any numbers of 0123456789.
+|   |   ├── example03         # Contain at least one numbers between 0 and 9.
+|   |   ├── example04         # Contain at least one character between a and b.
+|   |   ├── example05         # Contain at least one character between A and Z.
+|   |   ├── example06         # Contain any number.
+|   |   ├── example07         # Contain any character.
+|   |   ├── example08         # Compare string with date format.
+|   |   ├── example09         # No contain between 0-4.
+|   |   ├── example10         # No contain character that isn´t numbers.
+|   |   ├── example11         # With one or more numbers.
+|   |   ├── example12         # Can contain cero or more numbers.
+|   |   ├── example13         # Can contain character l or not.
+|   |   ├── example14         # Correct format Date.
+|   |   ├── example15         # No case sensitive.
+|   |   ├── example16         # String groups.
+|   |   ├── example17         # Exec function.
+|   |   ├── example18         # Match function.
+|   |   ├── example19         # Limit words.
+|   |   ├── example20         # Patterns.
+|   |   ├── example21         # Start string pattern.
+|   |   ├── example22         # End string pattern.
+|   |   ├── example23         # Replace function.
+|   |   ├── example24         # Search function.
+|   |   ├── example25         # Test Emails format.
+|   |   └── ...
+|   |
+|   ├── top-15                # Top 15 Commonly Used Regex
+|   |   ├── example01         # TODO.
+|   |   ├── example02         # TODO.
+|   |   ├── example03         # TODO.
+|   |   ├── example04         # TODO.
+|   |   ├── example05         # TODO.
+|   |   ├── example06         # TODO.
+|   |   ├── example07         # TODO.
+|   |   ├── example08         # TODO.
+|   |   ├── example09         # TODO.
+|   |   ├── example10         # TODO.
+|   |   ├── example11         # TODO.
+|   |   ├── example12         # TODO.
+|   |   ├── example13         # TODO.
+|   |   ├── example14         # TODO.
+|   |   ├── example15         # TODO.
+|   |   └── ...
 |   └── ...
 └── ...
 ```

@@ -55,11 +55,12 @@ Cheat Sheet – Regex Rules
 - [Mozilla RegExp.prototype.exec()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec)
 - [Mozilla RegExp.prototype.match()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/match)
 - [Mozilla RegExp.prototype.search()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/search)
+- [Digital Fortress | Top 15 Commonly Used Regex](https://digitalfortress.tech/tricks/top-15-commonly-used-regex/)
 
 ## 🔥 Running the Examples
 
 ```bash
-$node ./src/'file.js'
+$node ./src/'folder'/'file.js'
 ```
 
 ## 📂 Code scaffolding
@@ -99,21 +100,39 @@ $node ./src/'file.js'
 |   |   └── ...
 |   |
 |   ├── top-15                # Top 15 Commonly Used Regex
-|   |   ├── example01         # TODO.
-|   |   ├── example02         # TODO.
-|   |   ├── example03         # TODO.
-|   |   ├── example04         # TODO.
-|   |   ├── example05         # TODO.
-|   |   ├── example06         # TODO.
-|   |   ├── example07         # TODO.
-|   |   ├── example08         # TODO.
-|   |   ├── example09         # TODO.
-|   |   ├── example10         # TODO.
-|   |   ├── example11         # TODO.
-|   |   ├── example12         # TODO.
-|   |   ├── example13         # TODO.
-|   |   ├── example14         # TODO.
-|   |   ├── example15         # TODO.
+|   |   ├── example01         # Digits | Whole Numbers.
+|   |   ├── example02         # Digits | Decimal Numbers.
+|   |   ├── example03         # Digits | Whole + Decimal Numbers.
+|   |   ├── example04         # Digits | Negative, Positive Whole + Decimal Numbers.
+|   |   ├── example05         # Digits | Whole + Decimal + Fractions.
+|   |   ├── example06         # Alphanumeric Characters | Alphanumeric without space.
+|   |   ├── example07         # Alphanumeric Characters | Alphanumeric with space.
+|   |   ├── example08         # Email | Common email Ids.
+|   |   ├── example09         # Email | Uncommon email ids.
+|   |   ├── example10         # Password Strength | Complex.
+|   |   ├── example11         # Password Strength | Moderate.
+|   |   ├── example12         # Username | Alphanumeric string.
+|   |   ├── example13         # URL | Include http(s) Protocol.
+|   |   ├── example14         # URL | Protocol Optional.
+|   |   ├── example15         # IP Address | IPv4 address.
+|   |   ├── example16         # IP Address | IPv6 address.
+|   |   ├── example17         # IP Address | Both IPv4, IPv6 addresses.
+|   |   ├── example18         # Dates | YYYY-MM-dd using separator -.
+|   |   ├── example19         # Dates | dd-MM-YYYY using separators - or . or /.
+|   |   ├── example20         # Dates | dd-mmm-YYYY using separators - or . or /.
+|   |   ├── example21         # Time | HH:MM 12-hour.
+|   |   ├── example22         # Time | HH:MM 12-hour Meridiems (AM/PM).
+|   |   ├── example23         # Time | HH:MM 24-hour with leading 0.
+|   |   ├── example24         # Time | HH:MM 24-hour, optional leading 0.
+|   |   ├── example25         # Time | HH:MM:SS 24-hour.
+|   |   ├── example26         # HTML Tags | Elements with Attributes.
+|   |   ├── example27         # JavaScript Handlers | Inline JS handler.
+|   |   ├── example28         # JavaScript Handlers | Inline JS handler with element.
+|   |   ├── example29         # Slug | Slug.
+|   |   ├── example30         # Match Duplicates in a String | Search Duplicates.
+|   |   ├── example31         # Phone Numbers | International Phone Numbers.
+|   |   ├── example32         # File Path | File Path with Filename and extension.
+|   |   ├── example33         # File Path | File Name with extension having 3 chars.
 |   |   └── ...
 |   └── ...
 └── ...
